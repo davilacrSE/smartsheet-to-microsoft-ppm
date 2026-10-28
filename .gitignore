@@ -1,0 +1,18 @@
+node_modules/
+dist/
+*.local
+.DS_Store
+
+# Environment-specific: written by `pac code init` and `pac code push`
+power.config.json
+
+# Regenerated per environment by `npm run pac:add-sources` (the app does not import them)
+src/generated/
+.power/schemas/dataverse/
+
+# Teams package output (`npm run teams:package`)
+teams/package/
+teams/*.zip
+
+# Screenshot packs written outside docs/images (`npm run screenshots -- --out ...`)
+*-shots/

@@ -1,0 +1,42 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    name: Type-check, test and build
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 24
+          cache: npm
+
+      - run: npm ci
+
+      - name: Type-check the app and scripts
+        run: npm run typecheck
+
+      - name: Workflow checks mapped to the acceptance criteria
+        run: npm test
+
+      - name: Render every page for every persona, with the NDA leak check
+        run: npm run test:render
+
+      - name: Build the demo (sample data)
+        run: npx vite build
+
+      - name: Build for Dataverse
+        run: npx vite build --mode dataverse
+
+      - name: Print the Dataverse provisioning plan
+        run: npm run dataverse:plan | tail -n 1
