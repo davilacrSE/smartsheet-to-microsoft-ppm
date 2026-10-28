@@ -5,6 +5,7 @@ A guided walkthrough of the accelerator, from a new idea to an archived project.
 ## Before you start
 
 - **Open the demo.** Use the [live demo](https://davilacrse.github.io/smartsheet-to-microsoft-ppm/), or run `npm run dev` and open http://localhost:3000. In the links below, `<demo>` stands for either address.
+- **Or present from the live page.** `npm run build:live` writes `dist-live/live-demo.html`, one file with the demo and this script beside it as a presenter guide. Each step opens its screen as the right person and points at what to show. Its Setup tab rebrands the demo and resets the sample data, so it needs none of the URL parameters below.
 - **Switch people from the top right.** The persona menu lists every sample person with their role. Each role sees a different app: BRMs see New Intake, executives are read-only, and external people see only what they were granted.
 - **Use deep links to save time.** `<demo>?as=elena.vasquez#/approvals` opens the app as Elena on her approvals inbox.
 - **Rebrand for the audience.** Add `company`, `primary` and `ink` to the URL, for example `<demo>?company=Contoso&primary=%236B2FBA&ink=%231E0B36`.

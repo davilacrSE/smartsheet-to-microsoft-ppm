@@ -38,5 +38,8 @@ jobs:
       - name: Build for Dataverse
         run: npx vite build --mode dataverse
 
+      - name: Build the live demo page
+        run: npm run build:live
+
       - name: Print the Dataverse provisioning plan
         run: npm run dataverse:plan | tail -n 1

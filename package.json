@@ -10,6 +10,7 @@
     "typecheck": "tsc -p tsconfig.json && tsc -p tsconfig.node.json",
     "build": "npm run typecheck && vite build --mode dataverse",
     "build:demo": "npm run typecheck && vite build",
+    "build:live": "node scripts/build-live.mjs",
     "preview": "vite preview",
     "test": "tsx scripts/smoke-test.ts",
     "test:render": "tsx scripts/render-test.tsx",
