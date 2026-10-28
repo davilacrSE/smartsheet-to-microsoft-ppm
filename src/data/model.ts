@@ -4,7 +4,7 @@
  *   • src/data/dataverse.ts (maps app records <-> Dataverse Web API rows at runtime).
  *
  * Conventions
- *   • Publisher prefix from src/brand.ts (default `cordova_`); every SchemaName equals its logical name (all lower case), so the
+ *   • Publisher prefix from src/brand.ts (default `caldova_`); every SchemaName equals its logical name (all lower case), so the
  *     lookup navigation property used for `@odata.bind` is simply the column name.
  *   • Choice-like values (stage, status, health, types) are stored as text columns so PMO administrators
  *     can change the value lists in-app without a solution deployment (NFR-002).

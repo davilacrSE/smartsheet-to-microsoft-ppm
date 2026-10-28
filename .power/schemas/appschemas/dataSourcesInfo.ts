@@ -5,206 +5,206 @@
  */
 
 export const dataSourcesInfo = {
-  "cordova_requirements": {
+  "caldova_requirements": {
     "tableId": "",
     "version": "",
-    "primaryKey": "cordova_requirementid",
+    "primaryKey": "caldova_requirementid",
     "dataSourceType": "Dataverse",
     "apis": {}
   },
-  "cordova_forecastlines": {
+  "caldova_forecastlines": {
     "tableId": "",
     "version": "",
-    "primaryKey": "cordova_forecastlineid",
+    "primaryKey": "caldova_forecastlineid",
     "dataSourceType": "Dataverse",
     "apis": {}
   },
-  "cordova_capacityscenarios": {
+  "caldova_capacityscenarios": {
     "tableId": "",
     "version": "",
-    "primaryKey": "cordova_capacityscenarioid",
+    "primaryKey": "caldova_capacityscenarioid",
     "dataSourceType": "Dataverse",
     "apis": {}
   },
-  "cordova_costitems": {
+  "caldova_costitems": {
     "tableId": "",
     "version": "",
-    "primaryKey": "cordova_costitemid",
+    "primaryKey": "caldova_costitemid",
     "dataSourceType": "Dataverse",
     "apis": {}
   },
-  "cordova_cutovertasks": {
+  "caldova_cutovertasks": {
     "tableId": "",
     "version": "",
-    "primaryKey": "cordova_cutovertaskid",
+    "primaryKey": "caldova_cutovertaskid",
     "dataSourceType": "Dataverse",
     "apis": {}
   },
-  "cordova_accessgrants": {
+  "caldova_accessgrants": {
     "tableId": "",
     "version": "",
-    "primaryKey": "cordova_accessgrantid",
+    "primaryKey": "caldova_accessgrantid",
     "dataSourceType": "Dataverse",
     "apis": {}
   },
-  "cordova_financialactuals": {
+  "caldova_financialactuals": {
     "tableId": "",
     "version": "",
-    "primaryKey": "cordova_financialactualid",
+    "primaryKey": "caldova_financialactualid",
     "dataSourceType": "Dataverse",
     "apis": {}
   },
-  "cordova_forecastentries": {
+  "caldova_forecastentries": {
     "tableId": "",
     "version": "",
-    "primaryKey": "cordova_forecastentryid",
+    "primaryKey": "caldova_forecastentryid",
     "dataSourceType": "Dataverse",
     "apis": {}
   },
-  "cordova_gatereviews": {
+  "caldova_gatereviews": {
     "tableId": "",
     "version": "",
-    "primaryKey": "cordova_gatereviewid",
+    "primaryKey": "caldova_gatereviewid",
     "dataSourceType": "Dataverse",
     "apis": {}
   },
-  "cordova_governanceexceptions": {
+  "caldova_governanceexceptions": {
     "tableId": "",
     "version": "",
-    "primaryKey": "cordova_governanceexceptionid",
+    "primaryKey": "caldova_governanceexceptionid",
     "dataSourceType": "Dataverse",
     "apis": {}
   },
-  "cordova_hypercaredefects": {
+  "caldova_hypercaredefects": {
     "tableId": "",
     "version": "",
-    "primaryKey": "cordova_hypercaredefectid",
+    "primaryKey": "caldova_hypercaredefectid",
     "dataSourceType": "Dataverse",
     "apis": {}
   },
-  "cordova_intakeattachments": {
+  "caldova_intakeattachments": {
     "tableId": "",
     "version": "",
-    "primaryKey": "cordova_intakeattachmentid",
+    "primaryKey": "caldova_intakeattachmentid",
     "dataSourceType": "Dataverse",
     "apis": {}
   },
-  "cordova_itprojects": {
+  "caldova_itprojects": {
     "tableId": "",
     "version": "",
-    "primaryKey": "cordova_itprojectid",
+    "primaryKey": "caldova_itprojectid",
     "dataSourceType": "Dataverse",
     "apis": {}
   },
-  "cordova_ndaaccesses": {
+  "caldova_ndaaccesses": {
     "tableId": "",
     "version": "",
-    "primaryKey": "cordova_ndaaccessid",
+    "primaryKey": "caldova_ndaaccessid",
     "dataSourceType": "Dataverse",
     "apis": {}
   },
-  "cordova_auditevents": {
+  "caldova_auditevents": {
     "tableId": "",
     "version": "",
-    "primaryKey": "cordova_auditeventid",
+    "primaryKey": "caldova_auditeventid",
     "dataSourceType": "Dataverse",
     "apis": {}
   },
-  "cordova_notifications": {
+  "caldova_notifications": {
     "tableId": "",
     "version": "",
-    "primaryKey": "cordova_notificationid",
+    "primaryKey": "caldova_notificationid",
     "dataSourceType": "Dataverse",
     "apis": {}
   },
-  "cordova_ppmsettings": {
+  "caldova_ppmsettings": {
     "tableId": "",
     "version": "",
-    "primaryKey": "cordova_ppmsettingid",
+    "primaryKey": "caldova_ppmsettingid",
     "dataSourceType": "Dataverse",
     "apis": {}
   },
-  "cordova_ppmusers": {
+  "caldova_ppmusers": {
     "tableId": "",
     "version": "",
-    "primaryKey": "cordova_ppmuserid",
+    "primaryKey": "caldova_ppmuserid",
     "dataSourceType": "Dataverse",
     "apis": {}
   },
-  "cordova_plantasks": {
+  "caldova_plantasks": {
     "tableId": "",
     "version": "",
-    "primaryKey": "cordova_plantaskid",
+    "primaryKey": "caldova_plantaskid",
     "dataSourceType": "Dataverse",
     "apis": {}
   },
-  "cordova_raciitems": {
+  "caldova_raciitems": {
     "tableId": "",
     "version": "",
-    "primaryKey": "cordova_raciitemid",
+    "primaryKey": "caldova_raciitemid",
     "dataSourceType": "Dataverse",
     "apis": {}
   },
-  "cordova_raidditems": {
+  "caldova_raidditems": {
     "tableId": "",
     "version": "",
-    "primaryKey": "cordova_raidditemid",
+    "primaryKey": "caldova_raidditemid",
     "dataSourceType": "Dataverse",
     "apis": {}
   },
-  "cordova_requirementtraces": {
+  "caldova_requirementtraces": {
     "tableId": "",
     "version": "",
-    "primaryKey": "cordova_requirementtraceid",
+    "primaryKey": "caldova_requirementtraceid",
     "dataSourceType": "Dataverse",
     "apis": {}
   },
-  "cordova_resourcedemands": {
+  "caldova_resourcedemands": {
     "tableId": "",
     "version": "",
-    "primaryKey": "cordova_resourcedemandid",
+    "primaryKey": "caldova_resourcedemandid",
     "dataSourceType": "Dataverse",
     "apis": {}
   },
-  "cordova_resources": {
+  "caldova_resources": {
     "tableId": "",
     "version": "",
-    "primaryKey": "cordova_resourceid",
+    "primaryKey": "caldova_resourceid",
     "dataSourceType": "Dataverse",
     "apis": {}
   },
-  "cordova_resourceteams": {
+  "caldova_resourceteams": {
     "tableId": "",
     "version": "",
-    "primaryKey": "cordova_resourceteamid",
+    "primaryKey": "caldova_resourceteamid",
     "dataSourceType": "Dataverse",
     "apis": {}
   },
-  "cordova_stakeholders": {
+  "caldova_stakeholders": {
     "tableId": "",
     "version": "",
-    "primaryKey": "cordova_stakeholderid",
+    "primaryKey": "caldova_stakeholderid",
     "dataSourceType": "Dataverse",
     "apis": {}
   },
-  "cordova_teamassignments": {
+  "caldova_teamassignments": {
     "tableId": "",
     "version": "",
-    "primaryKey": "cordova_teamassignmentid",
+    "primaryKey": "caldova_teamassignmentid",
     "dataSourceType": "Dataverse",
     "apis": {}
   },
-  "cordova_uatdefects": {
+  "caldova_uatdefects": {
     "tableId": "",
     "version": "",
-    "primaryKey": "cordova_uatdefectid",
+    "primaryKey": "caldova_uatdefectid",
     "dataSourceType": "Dataverse",
     "apis": {}
   },
-  "cordova_testcases": {
+  "caldova_testcases": {
     "tableId": "",
     "version": "",
-    "primaryKey": "cordova_testcaseid",
+    "primaryKey": "caldova_testcaseid",
     "dataSourceType": "Dataverse",
     "apis": {}
   },
@@ -215,10 +215,10 @@ export const dataSourcesInfo = {
     "dataSourceType": "Dataverse",
     "apis": {}
   },
-  "cordova_statusupdates": {
+  "caldova_statusupdates": {
     "tableId": "",
     "version": "",
-    "primaryKey": "cordova_statusupdateid",
+    "primaryKey": "caldova_statusupdateid",
     "dataSourceType": "Dataverse",
     "apis": {}
   }

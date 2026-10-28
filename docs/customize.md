@@ -8,10 +8,10 @@ Edit `BRAND` in [src/brand.ts](../src/brand.ts):
 
 | Field | Default | Used for |
 |---|---|---|
-| `company` | Cordova | Sidebar wordmark, stakeholder company, internal and external wording |
-| `appName` | Cordova PPM | Window title, Teams app name, security role names |
+| `company` | Caldova | Sidebar wordmark, stakeholder company, internal and external wording |
+| `appName` | Caldova PPM | Window title, Teams app name, security role names |
 | `tagline` | IT Project & Portfolio Mgmt | The line under the company name |
-| `emailDomain` | cordova.example | Sample people's emails, and the demo's internal domain |
+| `emailDomain` | caldova.example | Sample people's emails, and the demo's internal domain |
 | `primary` | `#0F766E` | Buttons, links, focus rings and active states |
 | `ink` | `#0B2E32` | Sidebar, avatars, toasts and the loading screen |
 | `logoUrl` | none | A logo image in `public/`, for example `./logo.svg`. It replaces the wordmark |
@@ -49,9 +49,9 @@ The `DATAVERSE` block in [src/brand.ts](../src/brand.ts) sets the publisher, the
 
 ```ts
 export const DATAVERSE = {
-  prefix: 'cordova',
-  publisher: { uniqueName: 'cordovappm', displayName: 'Cordova PPM', optionValuePrefix: 10079 },
-  solution: { uniqueName: 'ITProject', displayName: 'IT Project (Cordova PPM)', version: '1.0.0.0' },
+  prefix: 'caldova',
+  publisher: { uniqueName: 'caldovappm', displayName: 'Caldova PPM', optionValuePrefix: 10079 },
+  solution: { uniqueName: 'ITProject', displayName: 'IT Project (Caldova PPM)', version: '1.0.0.0' },
 };
 ```
 
@@ -66,7 +66,7 @@ export const DATAVERSE = {
 | Stage names and descriptions | `STAGES` and `STAGE_DESCRIPTIONS` in [src/domain/constants.ts](../src/domain/constants.ts), and the `Stage` type in [src/domain/types.ts](../src/domain/types.ts) |
 | Gates and governance reviews | `GATES` in [src/domain/constants.ts](../src/domain/constants.ts): name, purpose, authority and allowed stages |
 | Stage transitions without a gate | `TRANSITIONS`: Start Execution, Go-Live and Move to Close |
-| Funding approval | Cordova calls its funding approval "ACT". Search for `ACT` in `src/` to rename it to the customer's term, such as capital request or funding decision |
+| Funding approval | Caldova calls its funding approval "ACT". Search for `ACT` in `src/` to rename it to the customer's term, such as capital request or funding decision |
 
 Stage names are used in the sample data and the tests too. Run `npm run check` after renaming them.
 

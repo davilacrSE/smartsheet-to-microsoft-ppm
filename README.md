@@ -10,15 +10,15 @@
 
 ![Portfolio dashboard for the PMO Director](docs/images/portfolio-dashboard.png)
 
-**[Try the live demo](https://davilacrse.github.io/smartsheet-to-microsoft-ppm/)** · [Demo script](docs/demo-script.md) · [Smartsheet to Microsoft mapping](docs/smartsheet-to-microsoft.md) · [Deploy to an environment](docs/deploy.md) · [Tailor it for a customer](docs/customize.md) · [Walkthrough deck](docs/deck/From-Smartsheet-to-Cordova-PPM.pptx)
+**[Try the live demo](https://davilacrse.github.io/smartsheet-to-microsoft-ppm/)** · [Demo script](docs/demo-script.md) · [Smartsheet to Microsoft mapping](docs/smartsheet-to-microsoft.md) · [Deploy to an environment](docs/deploy.md) · [Tailor it for a customer](docs/customize.md) · [Walkthrough deck](docs/deck/From-Smartsheet-to-Caldova-PPM.pptx)
 
-> **Cordova is a fictional company.** The scenario is modeled on a real IT PMO's move from Smartsheet. Every person, project and number in the sample data is made up.
+> **Caldova is a fictional company.** The scenario is modeled on a real IT PMO's move from Smartsheet. Every person, project and number in the sample data is made up.
 
 ---
 
 ## The scenario
 
-Cordova's IT PMO ran every project in Smartsheet:
+Caldova's IT PMO ran every project in Smartsheet:
 
 - Business Relationship Managers (BRMs) submitted requests through a PPM Intake sheet.
 - Approving an intake copied the project templates into a new workspace: **16 sheets and a dashboard folder per project**.

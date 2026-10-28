@@ -23,7 +23,7 @@ npm run check        # type-check, 49 workflow checks, render test of every page
 
 ## 2. Name it for the customer
 
-Edit [src/brand.ts](../src/brand.ts) before you provision. Set the company and app names, colors and email domain, and the `DATAVERSE` block: publisher, table prefix and solution name. The defaults create the publisher `cordovappm` with the prefix `cordova` and the solution `ITProject`. See [customize.md](customize.md).
+Edit [src/brand.ts](../src/brand.ts) before you provision. Set the company and app names, colors and email domain, and the `DATAVERSE` block: publisher, table prefix and solution name. The defaults create the publisher `caldovappm` with the prefix `caldova` and the solution `ITProject`. See [customize.md](customize.md).
 
 ## 3. Sign in
 
@@ -62,7 +62,7 @@ It is idempotent. Run it again after you add a column, and it creates only what 
 ## 5. Create the code app and register the tables
 
 ```bash
-pac code init -n "Cordova PPM" -b ./dist -f index.html
+pac code init -n "Caldova PPM" -b ./dist -f index.html
 npm run pac:add-sources
 ```
 

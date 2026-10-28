@@ -30,10 +30,10 @@ export interface Brand {
 }
 
 const DEFAULT_BRAND: Brand = {
-  company: 'Cordova',
-  appName: 'Cordova PPM',
+  company: 'Caldova',
+  appName: 'Caldova PPM',
   tagline: 'IT Project & Portfolio Mgmt',
-  emailDomain: 'cordova.example',
+  emailDomain: 'caldova.example',
   primary: '#0F766E',
   ink: '#0B2E32',
   website: 'https://www.example.com',
@@ -41,9 +41,9 @@ const DEFAULT_BRAND: Brand = {
 
 /** Dataverse naming. Changing the prefix after provisioning creates a second set of tables. */
 export const DATAVERSE = {
-  prefix: 'cordova',
-  publisher: { uniqueName: 'cordovappm', displayName: 'Cordova PPM', optionValuePrefix: 10079 },
-  solution: { uniqueName: 'ITProject', displayName: 'IT Project (Cordova PPM)', version: '1.0.0.0' },
+  prefix: 'caldova',
+  publisher: { uniqueName: 'caldovappm', displayName: 'Caldova PPM', optionValuePrefix: 10079 },
+  solution: { uniqueName: 'ITProject', displayName: 'IT Project (Caldova PPM)', version: '1.0.0.0' },
 };
 export const TABLE_PREFIX = `${DATAVERSE.prefix}_`;
 

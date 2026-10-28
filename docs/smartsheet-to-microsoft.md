@@ -1,13 +1,13 @@
 # Smartsheet to Microsoft
 
-This guide maps how an IT PMO typically runs on Smartsheet to how the same process runs on Microsoft Power Platform in this accelerator. It covers the capability mapping, the six steps Cordova took, and the options for projects that are already in flight.
+This guide maps how an IT PMO typically runs on Smartsheet to how the same process runs on Microsoft Power Platform in this accelerator. It covers the capability mapping, the six steps Caldova took, and the options for projects that are already in flight.
 
 ## How Smartsheet concepts map
 
 | In Smartsheet | In this accelerator | Microsoft service |
 |---|---|---|
 | A workspace per project, copied from template sheets | One IT Project record. Its artifacts are child rows, created when Stage Gate 0 approves the intake | Dataverse |
-| A sheet | A table, such as `cordova_plantask` for the Project Plan | Dataverse |
+| A sheet | A table, such as `caldova_plantask` for the Project Plan | Dataverse |
 | Row hierarchy (indent and outdent) | A parent lookup on plan tasks, BRD requirements and cost items, with WBS numbering in the app | Dataverse |
 | Dropdown columns | Value lists that PMO administrators edit in Administration → Master data | Dataverse |
 | Contact list columns | Person lookups to PPM user profiles, with a people picker that searches the organization directory | Dataverse, Microsoft Entra ID |
@@ -35,7 +35,7 @@ Three things are worth saying out loud in a customer conversation:
 
 ## The move in six steps
 
-This is how Cordova moved from Smartsheet to Microsoft.
+This is how Caldova moved from Smartsheet to Microsoft.
 
 | Step | What happened |
 |---|---|
@@ -46,7 +46,7 @@ This is how Cordova moved from Smartsheet to Microsoft.
 | 5. Build the app | A React and TypeScript code app covers the whole lifecycle |
 | 6. Test and deploy | Automated workflow and render tests, then publish to Power Apps and package for Teams |
 
-What moved was the templates, the rules and the process. Cordova did not migrate Smartsheet project data. New intakes started in the new app, and projects already in flight finished where they were.
+What moved was the templates, the rules and the process. Caldova did not migrate Smartsheet project data. New intakes started in the new app, and projects already in flight finished where they were.
 
 ## Options for projects already in flight
 
@@ -54,7 +54,7 @@ Pick per project, based on how far along it is and how much history matters.
 
 | Option | How it works | Good for |
 |---|---|---|
-| **Finish in Smartsheet** | New intakes start in the app. Active projects finish in Smartsheet, which then becomes read-only | Short transitions, and projects close to go-live. This is what Cordova chose |
+| **Finish in Smartsheet** | New intakes start in the app. Active projects finish in Smartsheet, which then becomes read-only | Short transitions, and projects close to go-live. This is what Caldova chose |
 | **Re-key at the current stage** | The PMO creates the project in the app and approves it through Stage Gate 0, which creates its artifacts. The PM then brings over the live plan, RAIDD items and status | A handful of large projects with years still to run |
 | **Bulk import from exports** | Export each sheet to Excel, map its columns to the artifact table and load it with a Power Query dataflow. Set the project lookup and map contacts to PPM users | Many projects with the same templates |
 | **Sync during coexistence** | Use the Smartsheet connector in Power Automate. It has triggers such as *When a new row is created* and *When a sheet is updated*, and actions such as *Get a sheet* | A period where both tools run side by side |
@@ -70,7 +70,7 @@ Practical tips for an import:
 ## What stays outside the app
 
 - **Financial actuals** stay in the ERP, which remains the system of record. A scheduled load copies actuals into the financial actual table, where the app shows them read-only.
-- **Enhancements and non-IT work** were out of scope for Cordova's PMO, and the app is built for IT projects.
+- **Enhancements and non-IT work** were out of scope for Caldova's PMO, and the app is built for IT projects.
 - **Documents** can stay in SharePoint. Dataverse can link a SharePoint document library to each project record.
 
 ## Related

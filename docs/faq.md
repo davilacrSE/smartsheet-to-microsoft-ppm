@@ -38,7 +38,7 @@ Gate checklists, gate approvers, master data lists and thresholds are all in **A
 
 ### What happens to our existing Smartsheet projects?
 
-Cordova finished in-flight projects in Smartsheet and started new intakes in the app. Other options are re-keying a few large projects, a bulk import from Excel exports, or syncing during a transition with the Smartsheet connector in Power Automate. See [smartsheet-to-microsoft.md](smartsheet-to-microsoft.md#options-for-projects-already-in-flight).
+Caldova finished in-flight projects in Smartsheet and started new intakes in the app. Other options are re-keying a few large projects, a bulk import from Excel exports, or syncing during a transition with the Smartsheet connector in Power Automate. See [smartsheet-to-microsoft.md](smartsheet-to-microsoft.md#options-for-projects-already-in-flight).
 
 ### How do financial actuals get in?
 
